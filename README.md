@@ -4,8 +4,6 @@
 
 # A Spring Boot project that simulates an ATM system with OTP verification for secure withdrawals.
 
-# 
-
 # \## 🚀 Features
 
 - Check account balance  
@@ -20,9 +18,9 @@
 
 # \## 📌 Example Endpoints
 
-#\- \*\*Check Balance\*\* → `GET /atm/balance/{id}`  
+\- \*\*Check Balance\*\* → `GET /atm/balance/{id}`  
 
- \- \*\*Withdraw Money\*\* → `POST /atm/withdraw?id=1\&amount=2000\&choice=2\&contact=email`  
+\- \*\*Withdraw Money\*\* → `POST /atm/withdraw?id=1\&amount=2000\&choice=2\&contact=email`  
 
 \- \*\*Verify OTP\*\* → `POST /atm/verifyOtp?id=1\&contact=email\&otp=123456\&amount=7000`  
 
@@ -34,7 +32,7 @@
 
  \- Java 21  
 
-\- Spring Boot 3  
+ \- Spring Boot 3  
 
  \- MySQL (for storing accounts)  
 
