@@ -8,51 +8,51 @@
 
 # \## 🚀 Features
 
-# \- Check account balance  
+- Check account balance  
 
-# \- Deposit money  
+- Deposit money  
 
-# \- Withdraw money (with OTP verification if amount > 5000)  
+- Withdraw money (with OTP verification if amount > 5000)  
 
-# \- OTP delivery via SMS or Email  
+- OTP delivery via SMS or Email  
 
 # 
 
 # \## 📌 Example Endpoints
 
-# \- \*\*Check Balance\*\* → `GET /atm/balance/{id}`  
+#\- \*\*Check Balance\*\* → `GET /atm/balance/{id}`  
 
-# \- \*\*Withdraw Money\*\* → `POST /atm/withdraw?id=1\&amount=2000\&choice=2\&contact=email`  
+ \- \*\*Withdraw Money\*\* → `POST /atm/withdraw?id=1\&amount=2000\&choice=2\&contact=email`  
 
-# \- \*\*Verify OTP\*\* → `POST /atm/verifyOtp?id=1\&contact=email\&otp=123456\&amount=7000`  
+\- \*\*Verify OTP\*\* → `POST /atm/verifyOtp?id=1\&contact=email\&otp=123456\&amount=7000`  
 
-# \- \*\*Deposit Money\*\* → `POST /atm/deposit?id=1\&amount=5000`  
+\- \*\*Deposit Money\*\* → `POST /atm/deposit?id=1\&amount=5000`  
 
 # 
 
-# \## 🛠 Tech Stack
+#  🛠 Tech Stack
 
-# \- Java 21  
+ \- Java 21  
 
-# \- Spring Boot 3  
+\- Spring Boot 3  
 
-# \- MySQL (for storing accounts)  
+ \- MySQL (for storing accounts)  
 
-# \- Twilio (for SMS OTP)  
+ \- Twilio (for SMS OTP)  
 
-# \- JavaMailSender (for email OTP)  
+ \- JavaMailSender (for email OTP)  
 
 # 
 
 # \## 📂 How to Run
 
-# 1\. Clone the repo  
+ 1\. Clone the repo  
 
-# &nbsp;  ```bash
+&nbsp;  ```bash
 
-# &nbsp;  git clone https://github.com/SushmaStriver/ATM-Project.git
+ &nbsp;  git clone https://github.com/SushmaStriver/ATM-Project.git
 
-# &nbsp;  cd ATM-Project
+&nbsp;  cd ATM-Project
 
-# ATM Project
+ ATM Project
 
